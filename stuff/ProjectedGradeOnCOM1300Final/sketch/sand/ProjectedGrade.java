@@ -53,7 +53,10 @@ public class ProjectedGrade {
 			
 			double requiredGrade = (desiredGrade - avg) / .25;
 			
+			double maxGrade = 25 + avg;
+			
 			System.out.printf("YOU WILL NEED A GRADE OF %.2f ON YOUR FINAL%n", requiredGrade);
+			System.out.printf("ASSUMING NO EXTRA-CREDIT ON THE FINAL, THE HIGHEST POSSIBLE GRADE IS %.2f%n", maxGrade);
 		}
 		
 		catch(FileNotFoundException fnfe) {
