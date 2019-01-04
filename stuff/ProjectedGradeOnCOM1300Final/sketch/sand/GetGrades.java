@@ -4,6 +4,7 @@ import java.io.*;
 
 public class GetGrades {
 	private static File[] files = new File("C:/Users/SP513/MYGIT/IntroToCompSci/assignments/").listFiles();
+	public static Map <File, Boolean> isLab = new HashMap <File, Boolean> ();
 	private static List <File> gradeFiles = new ArrayList <File> ();
 	
 	private GetGrades() {}
@@ -17,8 +18,36 @@ public class GetGrades {
 			else {
 				if(f.getName().startsWith("grade") && f.getName().endsWith(".txt")) {
 					gradeFiles.add(f);
+					
+					determineAssignmentType(f);
 				}
 			}
+		}
+	}
+	
+	private static void determineAssignmentType(File f) {
+		if(f.getName().contains("CelsiusToFahrenheit")) {
+			isLab.put(f, true);
+		}
+		
+		else if(f.getName().contains("GuessMyNumber")) {
+			isLab.put(f, true);
+		}
+		
+		else if(f.getName().contains("IterativeFactorial")) {
+			isLab.put(f, true);
+		}
+		
+		else if(f.getName().contains("RefactoredFactorial")) {
+			isLab.put(f, true);
+		}
+		
+		else if(f.getName().contains("DesignForInheritance")) {
+			isLab.put(f, true);
+		}
+		
+		else {
+			isLab.put(f, false);
 		}
 	}
 	
