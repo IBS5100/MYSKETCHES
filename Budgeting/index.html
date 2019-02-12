@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html>
+    
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="description" content="Record Spendings">
+        
+        <title>Budgeting</title>
+        
+        <link rel="stylesheet" type="text/css" href="main.css">
+        
+        <link rel="icon" href="Images/WebTab.jpg">
+        
+        <script src="scriptSDCCU.js"></script>
+        <script src="scriptChase.js"></script>
+        <script src="scriptYU.js"></script>
+    
+    </head>
+    
+    <body>
+        
+        <h1>This is the Webpage to Record Finances</h1>
+        
+        <img style="position: absolute; top: 125px; left: 80px; width: 300px; height: 188px;" src="Images/SDCCU_CARD.jpg">
+            
+        <form class="SDCCU" action="scriptSDCCU.js">
+            Amount Spent ($): <br>
+            <input type="text" name="amtSDCCU">
+            <br>
+            Purchase: <br>
+            <input type="text" name="purchaseSDCCU">
+            <br> <br>
+            <input type="submit">
+        </form>
+                
+        <img style="position: absolute; top: 125px; right: 80px; width: 300px; height: 188px" src="Images/CHASE_CARD.png">
+        
+        <form class="Chase" action="scriptChase.js">
+            Amount Spent ($): <br>
+            <input type="text" name="amtChase">
+            <br>
+            Purchase: <br>
+            <input type="text" name="purchaseChase">
+            <br> <br>
+            <input type="submit">
+        </form>
+            
+        <img style="position: absolute; top: 125px; left: 500px; width: 300px; height: 188px" src="Images/YU_CARD.jpg">
+        
+        <form class="CafCard" action="scriptYU.js">
+            Amount Spent ($): <br>
+            <input type="text" name="amtYU">
+            <br>
+            Purchase: <br>
+            <input type="text" name="purchaseYU">
+            <br> <br>
+            <input type="submit">
+        </form>
+        
+    </body>
+    
+</html>
