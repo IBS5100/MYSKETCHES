@@ -6,14 +6,6 @@
       <change afterPath="$PROJECT_DIR$/../DeleteBob/.idea/vcs.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GenericArrays/.idea/compiler.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../GenericArrays/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JUnitSamePackageDifDir.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sketch/test/itai/MathOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/sketch/test/itai/MathOperationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Budgeting/Images/CHASE_CARD.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Budgeting/Images/SDCCU_CARD.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Budgeting/Images/WebTab.jpg" beforeDir="false" />
@@ -351,6 +343,9 @@
       <change beforePath="$PROJECT_DIR$/../Budgeting/writeCafCard.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Budgeting/writeChase.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Budgeting/writeSDCCU.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sketch/test/itai/MathOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sketch/test/itai/MathOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sketch/test/itai/MathOperationsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sketch/test/itai/MathOperationsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../stuff/Accounting/onecard.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../stuff/Accounting/sketch/sand/Entry.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../stuff/Accounting/sketch/sand/Entry.java" beforeDir="false" />
@@ -399,7 +394,7 @@
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="226">
-              <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -407,11 +402,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/sketch/test/itai/MathOperations.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="265">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
               <folding>
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
+                <element signature="method#factorial#0;class#MathOperations#0" />
               </folding>
             </state>
           </provider>
@@ -420,10 +414,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/sketch/test/itai/MathOperationsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+            <state relative-caret-position="279">
+              <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#testFactorialZeroAndOne#0;class#MathOperationsTest#0" />
+                <element signature="method#testFactorial#0;class#MathOperationsTest#0" />
+                <element signature="method#testSquare#0;class#MathOperationsTest#0" />
               </folding>
             </state>
           </provider>
@@ -446,8 +443,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/sketch/test/itai/MathOperationsTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/sketch/test/itai/MathOperations.java" />
+        <option value="$PROJECT_DIR$/src/test/java/sketch/test/itai/MathOperationsTest.java" />
       </list>
     </option>
   </component>
@@ -507,6 +504,14 @@
               <item name="JUnitSamePackageDifDir" type="b2602c69:ProjectViewProjectNode" />
               <item name="JUnitSamePackageDifDir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="itai" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JUnitSamePackageDifDir" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JUnitSamePackageDifDir" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -560,6 +565,96 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.MathOperationsTest">
+    <configuration name="MathOperationsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitSamePackageDifDir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sketch.test.itai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sketch.test.itai" />
+      <option name="MAIN_CLASS_NAME" value="sketch.test.itai.MathOperationsTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathOperationsTest.testFactorial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitSamePackageDifDir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sketch.test.itai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sketch.test.itai" />
+      <option name="MAIN_CLASS_NAME" value="sketch.test.itai.MathOperationsTest" />
+      <option name="METHOD_NAME" value="testFactorial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathOperationsTest.testReciprocal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitSamePackageDifDir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sketch.test.itai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sketch.test.itai" />
+      <option name="MAIN_CLASS_NAME" value="sketch.test.itai.MathOperationsTest" />
+      <option name="METHOD_NAME" value="testReciprocal" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathOperationsTest.testReciprocalException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitSamePackageDifDir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sketch.test.itai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sketch.test.itai" />
+      <option name="MAIN_CLASS_NAME" value="sketch.test.itai.MathOperationsTest" />
+      <option name="METHOD_NAME" value="testReciprocalException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MathOperationsTest.testSquare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JUnitSamePackageDifDir" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sketch.test.itai.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sketch.test.itai" />
+      <option name="MAIN_CLASS_NAME" value="sketch.test.itai.MathOperationsTest" />
+      <option name="METHOD_NAME" value="testSquare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MathOperationsTest" />
+        <item itemvalue="JUnit.MathOperationsTest.testReciprocal" />
+        <item itemvalue="JUnit.MathOperationsTest.testReciprocalException" />
+        <item itemvalue="JUnit.MathOperationsTest.testSquare" />
+        <item itemvalue="JUnit.MathOperationsTest.testFactorial" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -571,24 +666,63 @@
       <option name="presentableId" value="Default" />
       <updated>1554133466742</updated>
     </task>
+    <task id="LOCAL-00001" summary="foo">
+      <created>1554134450134</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554134450134</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MathOperationsTest_testFactorialException - 2019.04.01 at 14h 09m 30s.xml">
+      <configuration name="MathOperationsTest.testFactorialException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathOperationsTest_testFactorialException - 2019.04.01 at 14h 09m 50s.xml">
+      <configuration name="MathOperationsTest.testFactorialException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathOperationsTest - 2019.04.01 at 14h 11m 29s.xml">
+      <configuration name="MathOperationsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathOperationsTest_testFactorial - 2019.04.01 at 14h 13m 30s.xml">
+      <configuration name="MathOperationsTest.testFactorial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathOperationsTest_testFactorial - 2019.04.01 at 14h 14m 18s.xml">
+      <configuration name="MathOperationsTest.testFactorial" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathOperationsTest_testSquare - 2019.04.01 at 14h 17m 04s.xml">
+      <configuration name="MathOperationsTest.testSquare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathOperationsTest_testSquare - 2019.04.01 at 14h 18m 01s.xml">
+      <configuration name="MathOperationsTest.testSquare" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathOperationsTest_testReciprocalException - 2019.04.01 at 14h 20m 54s.xml">
+      <configuration name="MathOperationsTest.testReciprocalException" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MathOperationsTest_testReciprocalException - 2019.04.01 at 14h 21m 09s.xml">
+      <configuration name="MathOperationsTest.testReciprocalException" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24939272" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3285968" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3285968" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -603,31 +737,37 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="foo" />
+    <option name="LAST_COMMIT_MESSAGE" value="foo" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="226">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sketch/test/itai/MathOperations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        <state relative-caret-position="265">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
           <folding>
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#369#370#0" expanded="true" />
+            <element signature="method#factorial#0;class#MathOperations#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/sketch/test/itai/MathOperationsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="279">
+          <caret line="42" column="55" selection-start-line="42" selection-start-column="55" selection-end-line="42" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#testFactorialZeroAndOne#0;class#MathOperationsTest#0" />
+            <element signature="method#testFactorial#0;class#MathOperationsTest#0" />
+            <element signature="method#testSquare#0;class#MathOperationsTest#0" />
           </folding>
         </state>
       </provider>

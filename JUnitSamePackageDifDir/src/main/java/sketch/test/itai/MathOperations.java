@@ -1,9 +1,9 @@
 package sketch.test.itai;
 
 public class MathOperations {
-    public MathOperations() {}
+    //protected MathOperations() {}
 
-    private long factorial(int x) {
+    protected static long factorial(int x) {
         if(x < 0) {
             throw new IllegalArgumentException();
         }
@@ -17,11 +17,11 @@ public class MathOperations {
         }
     }
 
-    private double square(double x) {
+    protected static double square(double x) {
         return x * x;
     }
 
-    private double reciprocal(double x) {
+    protected static double reciprocal(double x) {
         if(x == 0) {
             throw new IllegalArgumentException();
         }
