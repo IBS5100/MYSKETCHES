@@ -1,1 +1,0 @@
-function getMonth() { [native code] }-function getDate() { [native code] }-function getFullYear() { [native code] }     undefined     undefined

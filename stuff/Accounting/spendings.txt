@@ -1,8 +1,0 @@
-12-29-18         $100.0            refill cafcard
-
-12-30-18         $21.15            refill metrocard
-
-12-31-18         $10.0             refill laundry card
-
-01-01-19         $7.61             lunch
-
